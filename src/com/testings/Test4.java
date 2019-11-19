@@ -26,6 +26,11 @@ public class Test4 {
 	        }
 	        System.out.println("maximum is " + max);
 	        System.out.println("\nSecond maximum number is:" + secondMax);
+	      
+	        
+	        Main.display();
+	       
 	    }
+	
 
 }

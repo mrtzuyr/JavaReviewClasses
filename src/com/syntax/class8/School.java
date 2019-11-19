@@ -63,21 +63,5 @@ public class School {
 		t3.love();
 	
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }

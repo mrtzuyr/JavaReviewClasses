@@ -1,19 +1,23 @@
 package com.testings;
 
-class Main {
+public class Main {
 	  
-	  public static void main(String[] args) {
-	    Main str=new Main();
-	    str.PrintTwice("n");
-	    
+	  static int age;
+	  static String name;
+	  
+	  
+	  public static void display(){
+	   
+	    age=40;
+	    name="John";
+	    System.out.println(age);
+	    System.out.println(name);
+	  
 	  }
 	  
-	  void PrintTwice(String a){
-	      for(int i=0; i<2;i++ ){
-	        System.out.println("Don't make me say this twice!");
-	      }
-	    }
+	  public static void main(String[] args) {
 	    
+	   display();
 	    
-	    
+	  }
 	}
