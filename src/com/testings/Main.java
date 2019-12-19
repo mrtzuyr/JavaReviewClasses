@@ -1,36 +1,26 @@
 package com.testings;
 
-
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 class Main {
-  String schoolName;
-  int batch;
-  String year;
-  String lastDayOfClass;
+  public static void main(String[]args){
+    
+  Map<String, String>map=new HashMap<>();
   
-  Main(){}
+  map.put("Street", "Patrick St");
+  map.put("Suite","265");
+  map.put("City","Vienna");
+  map.put("Zip","22180");
+  map.put("Country","United States");
   
-  Main(String school, int batch, String year, String last){
-    schoolName=school;
-    this.batch=batch;
-    this.year=year;
-    lastDayOfClass=last;
+  Iterator<String> it=map.keySet().iterator();
+  while(it.hasNext()){
+    String str=it.next();
+    System.out.println(str);
   }
-  Main(int batch){
-	    
-	    this.batch=batch;
-	    
-	  }
   
-	void display(){
-	  System.out.println(schoolName+" "+batch+" "+year+" "+lastDayOfClass);
-	}
-	
-	public static void main(String[] args) {
-		
-			Main obj=new Main(0);
-		    Main obj1=new Main("SyntaxTechnologies", 4, "2019","07/30/2019");
-		    
-		    obj.display();
-		    obj1.display();
-	}
+  
+  }
 }

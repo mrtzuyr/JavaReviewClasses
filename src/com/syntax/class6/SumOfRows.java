@@ -11,7 +11,7 @@ public class SumOfRows {
 	      
 	        
 	        int sum = 0;
-	        int row = 0;
+	        int row = 1;
 	        
 	        for (int k = 0; k < b[row].length; k++) {
 	            sum += b[row][k];

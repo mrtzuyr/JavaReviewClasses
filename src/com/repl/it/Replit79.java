@@ -13,14 +13,15 @@ public class Replit79 {
 		    
 		    int [] nums=new int[11];
 
-		    for(int i=0; i<nums.length; i++ ){
-		    nums[i]=2010+i;
-		    }
-		    
+		/*
+		 * for(int i=0; i<nums.length; i++ ){
+		 *  nums[i]=2010+i; 
+		 *  }
+		 */
 		    
 		 
 		      for(int i=0; i<nums.length; i++ ){
-		    	  System.out.println(nums[i]);
+		    	  System.out.println(2010+i);
 		      }
 
 

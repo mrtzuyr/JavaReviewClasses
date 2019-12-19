@@ -12,15 +12,15 @@ public class Replit86 {
 
 
 		int sums[] = new int[nums.length];
-		int rowSum = 0;
+		
 			for (int i = 0; i < nums.length; i++) {
-				
+				int rowSum = 0;
 				for (int j = 0; j < nums[i].length; j++) {
 					rowSum += nums[i][j];
 				}
 				
 				sums[i] = rowSum;
-				rowSum=0;
+				
 			}
 
 		for(int sum : sums) {
